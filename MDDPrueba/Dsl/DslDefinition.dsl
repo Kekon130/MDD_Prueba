@@ -88,7 +88,11 @@
     </DomainEnumeration>
   </Types>
   <Shapes>
-    <GeometryShape Id="919c7834-e761-437f-94c3-7493f442ca57" Description="Description for IPS.NodosTelefonia.MetaforaNodoPrincipal" Name="MetaforaNodoPrincipal" DisplayName="Metafora Nodo Principal" Namespace="IPS.NodosTelefonia" FixedTooltipText="Metafora Nodo Principal" FillColor="Teal" OutlineColor="WhiteSmoke" InitialWidth="2" InitialHeight="1" OutlineThickness="0.05" FillGradientMode="None" Geometry="RoundedRectangle" />
+    <GeometryShape Id="919c7834-e761-437f-94c3-7493f442ca57" Description="Description for IPS.NodosTelefonia.MetaforaNodoPrincipal" Name="MetaforaNodoPrincipal" DisplayName="Metafora Nodo Principal" Namespace="IPS.NodosTelefonia" FixedTooltipText="Metafora Nodo Principal" FillColor="Teal" OutlineColor="WhiteSmoke" InitialWidth="2" InitialHeight="1" OutlineThickness="0.05" FillGradientMode="None" Geometry="RoundedRectangle">
+      <ShapeHasDecorators Position="Center" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="nombreDec" DisplayName="Nombre Dec" DefaultText="nombreDec" FontStyle="Bold" FontSize="10" />
+      </ShapeHasDecorators>
+    </GeometryShape>
   </Shapes>
   <XmlSerializationBehavior Name="NodosTelefoniaSerializationBehavior" Namespace="IPS.NodosTelefonia">
     <ClassData>
