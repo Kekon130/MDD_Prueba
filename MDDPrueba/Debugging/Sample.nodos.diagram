@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nodosTelefoniaDiagram dslVersion="1.0.0.0" Id="d3244cc2-60ae-4914-b28b-d96282838935" absoluteBounds="0, 0, 11, 8.5" name="Sample">
+  <exampleModelMoniker Id="3b1deee9-8b7c-48f8-9dfd-139009ad583f" />
+  <nestedChildShapes>
+    <exampleShape Id="8f566b73-af53-429a-82b4-5a5b9ecbefa7" absoluteBounds="0.5, 1.75, 2, 0.75">
+      <exampleElementMoniker name="/3b1deee9-8b7c-48f8-9dfd-139009ad583f/ExampleElement1" />
+    </exampleShape>
+    <exampleShape Id="f240662c-3382-422e-9210-56832e676efb" absoluteBounds="3, 0.5, 2, 0.75">
+      <exampleElementMoniker name="/3b1deee9-8b7c-48f8-9dfd-139009ad583f/ExampleElement2" />
+    </exampleShape>
+    <exampleConnector Id="743a803c-d635-4716-983f-c98c8de1f9a7" edgePoints="[(1.5 : 1.75); (1.5 : 0.875); (3 : 0.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="3cfa7dce-02a9-4d7e-95a9-77b918c6f623">
+      <nodes>
+        <exampleShapeMoniker Id="8f566b73-af53-429a-82b4-5a5b9ecbefa7" />
+        <exampleShapeMoniker Id="f240662c-3382-422e-9210-56832e676efb" />
+      </nodes>
+    </exampleConnector>
+  </nestedChildShapes>
+</nodosTelefoniaDiagram>

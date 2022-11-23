@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exampleModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3b1deee9-8b7c-48f8-9dfd-139009ad583f" xmlns="http://schemas.microsoft.com/dsltools/NodosTelefonia">
+  <elements>
+    <exampleElement Id="3bd8b7ca-da89-44c0-b51b-df6b42c0ee93" name="ExampleElement1">
+      <targets>
+        <exampleElementMoniker name="/3b1deee9-8b7c-48f8-9dfd-139009ad583f/ExampleElement2" />
+      </targets>
+    </exampleElement>
+    <exampleElement Id="5203122c-4696-4957-a407-5aa4c3e45ad5" name="ExampleElement2" />
+  </elements>
+</exampleModel>

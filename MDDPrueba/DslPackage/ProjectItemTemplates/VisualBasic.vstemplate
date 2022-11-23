@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{557e7a80-58d8-4aab-b916-b8513eb91f7b}</TemplateID>
+		<Name Package="{28c459e7-477d-4777-a7d1-77359344453e}" ID="103"/>
+		<Description Package="{28c459e7-477d-4777-a7d1-77359344453e}" ID="102"/>
+		<Icon Package="{28c459e7-477d-4777-a7d1-77359344453e}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>NodosTelefonia.nodos</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.nodos">nodos.nodos</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.nodos.diagram">nodos.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
